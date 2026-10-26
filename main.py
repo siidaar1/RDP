@@ -1351,6 +1351,17 @@ class MetaAdsScraper:
 
             self._trigger_page_interactions()
             self._wait_for_ad_elements()
+
+            count = 0
+            for _ in range(20):
+                count = self.driver.execute_script(
+                    "return document.querySelectorAll('video').length"
+                )
+                if count > 0:
+                    break
+                time.sleep(1)
+            C.dim(f"   Video tags on page: {count}\n")
+
             self._neuter_videos_now()
 
             C.info("🔎 Parsing initial DOM...\n")
