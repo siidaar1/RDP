@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "timestamp": "2026-10-26T12:14:35.532597",
+    "search_query": "7 domains",
+    "country": "AE",
+    "total_ads": 1,
+    "unique_websites": 1,
+    "skipped_too_new": 0
+  },
+  "ads": [
+    {
+      "button_text": "APPS.APPLE.COM Gymtone Download",
+      "url": "https://attribution.gymtone.ai/click",
+      "running_days": 6,
+      "found_at": "2026-10-26T12:11:26.328011",
+      "media_items": [
+        {
+          "type": "image",
+          "src": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35426-6/840499501_1997960497541148_8843281156571478490_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=NPK4Wv83LPMQ7kNvwE1cufA&_nc_oc=Adrk9RoR4TRX25wLWxZ3rdCIdUE4p-m9lvdroCGqufKc-8B3CuylidVFJJp_IEcvV8c&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=-f0Z1cC_r2fYxyYfvFFdaA&_nc_ss=78289&oh=00_AQOu0ObjxAAfiB5liJGK8AZ8nWZVKno13Em_oQpgcrMDzg&oe=6AE52C7A",
+          "poster": null
+        },
+        {
+          "type": "image",
+          "src": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.35426-6/848043733_1501176515168139_1301941308981621632_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QMJ5BlWjVn4Q7kNvwHsQPMM&_nc_oc=AdrT7mlPcaImbxCk1awJDu3NuzTw1ZYeEfZs-977ioNumMAn0moBAnYvKwebO8KJMH4&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=-f0Z1cC_r2fYxyYfvFFdaA&_nc_ss=78289&oh=00_AQOt9v_Yyd1ydoMH8eXO1y2QhHzBZYpAK017mevwSn_3mQ&oe=6AE5239B",
+          "poster": null
+        }
+      ]
+    }
+  ]
+}
