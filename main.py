@@ -1417,6 +1417,12 @@ class MetaAdsScraper:
             C.warn("⚠️  Current DOM is too small to parse yet.")
             return 0
 
+        n_vid = page_source.count("<video")
+        n_mp4 = page_source.count(".mp4")
+        C.dim(f"   DEBUG: <video> tags={n_vid} | .mp4 mentions={n_mp4}\n")
+
+        if save_debug:
+
         if save_debug:
             try:
                 with open("page_source_debug.html", "w", encoding="utf-8") as f:
