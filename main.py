@@ -1176,14 +1176,14 @@ class MetaAdsScraper:
 
         # Find Chrome / Chromium installed by Replit
         chrome_paths = [
-            shutil.which("chromium"),
-            shutil.which("chromium-browser"),
-            shutil.which("google-chrome"),
-            shutil.which("google-chrome-stable"),
-            "/usr/bin/chromium",
-            "/usr/bin/chromium-browser",
-            "/usr/bin/google-chrome",
-            "/usr/bin/google-chrome-stable",
+    shutil.which("google-chrome"),
+    shutil.which("google-chrome-stable"),
+    "/usr/bin/google-chrome",
+    "/usr/bin/google-chrome-stable",
+    shutil.which("chromium"),
+    shutil.which("chromium-browser"),
+    "/usr/bin/chromium",
+    "/usr/bin/chromium-browser",
         ]
 
         chrome_binary = None
